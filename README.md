@@ -31,9 +31,9 @@ Because of the size limitation of wattle submission, we do need to download BERT
 Because we have implement the 'mytask_sentiment' function in BERT files, only run below code can get the training result
 
 python run_classifier.py  -task_name=mytask_sentiment <br>
-                                          -do_train=false          <br>
+ &emsp&emsp&emsp&emsp&emsp&emsp&emsp&emsp&emsp                  -do_train=false          <br>
                           -do_eval=true         <br>
-                          -data_dir=data    <br>
+                          -data_dir=data    <br>　　　　　　       
                           -vocab_file=BERT_BASE_DIR/vocab.txt       <br>
                           -bert_config_file=BERT_BASE_DIR/bert_config.json      <br>
                           -init_checkpoint=BERT_BASE_DIR/bert_model.ckpt      <br>
