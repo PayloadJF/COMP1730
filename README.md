@@ -32,6 +32,7 @@ Because of the size limitation of wattle submission, we do need to download BERT
 Because we have implement the 'mytask_sentiment' function in BERT files, only run below code can get the training result
 <br>
 <br>
+``
 python run_classifier.py  -task_name=mytask_sentiment 
                           -do_train=true 
                           -do_eval=true        
@@ -44,7 +45,7 @@ python run_classifier.py  -task_name=mytask_sentiment
                           -learning_rate=2e-5           
                           -num_train_epochs=3.0         
                           -output_dir=/mytask_output     
-                          
+ ``                         
 <br>
 <br>
 
