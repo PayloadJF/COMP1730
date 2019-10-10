@@ -1,2 +1,2 @@
-# COMP1730
-COMP1703 Project
+# install
+To run this code,we need to install jupyter notebook first
