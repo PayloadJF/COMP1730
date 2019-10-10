@@ -48,5 +48,7 @@ python run_classifier.py  -task_name=mytask_sentiment
  ``                         
 <br>
 <br>
+Because we don't have any high performance GPUs for this project, Bert's result is not very good. <br>
+do_train=true, set max_seq_length to 128 and train_baych_size to 32 really required large GPU memory and resource.
 
 
