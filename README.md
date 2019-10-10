@@ -29,9 +29,8 @@ It is the main file of this project, containing the data process code, Naive Bay
 Because of the size limitation of wattle submission, we do need to download BERT pre-trained language model from [Google BERT](https://storage.googleapis.com/bert_models/2019_05_30/wwm_uncased_L-24_H-1024_A-16.zip), unzip it, put the files in the ./Bert/bert/BERT_BASE_DIR/
 <br>
 Because we have implement the 'mytask_sentiment' function in BERT files, only run below code can get the training result
-
-python run_classifier.py  -task_name=mytask_sentiment <br>
 ``
+python run_classifier.py  -task_name=mytask_sentiment <br>
                           -do_train=false          <br>
                           -do_eval=true         <br>
                           -data_dir=data    <br>　　　　　　       
