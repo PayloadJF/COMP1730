@@ -12,3 +12,6 @@ cd ./
 ``
 jupyter notebook
 ``
+
+## app_ids.ipynb
+This file use steam official api to get all application's id and store them in app_id.json
